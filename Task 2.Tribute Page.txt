@@ -1,0 +1,146 @@
+HTMl:
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tribute Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class = "container">
+    <div class = "text-center">
+      <h1>Mahendra Singh Dhoni</h1>
+      <span>Mahi Maar Raha He!!</span>
+      <span>The man who gave India, Trophies in all Formats of Cricket</span>
+    </div>
+  </header>
+  <section>
+    <div class = "about">
+      <h2>About</h2>
+    </div>
+    <div class = "contain">
+      <div class = "paragraphs">
+        <p>
+           Mahendra Singh Dhoni is an Indian former professional cricketer who was captain of the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He is a right handed wicket-keeper batsman.He led the team to three ICC trophies including the 2007 ICC World Twenty20, 2011 ICC Cricket World Cup and 2013 ICC Champions Trophy. Under his captaincy, India won the ACC Asia Cup two times, in 2010 and 2016. India also won ICC Test Championship Mace two times in 2010, 2011 and ICC ODI Shield for one time in 2013 under his leadership. He is considered as one of the greatest Captains and Wicket Keeper-Batsmen of all time.Throughout his 15 year long international career, Dhoni has won several awards and accolades.
+        </p>
+        <p>
+          "Dhoni finishes off in style” - as MSD hits a winning six in the 2011 cricket world cup final, Ravi Shastri exclaimed these words in the commentary box. On 2nd April 2011, Dhoni added CWC to his cabinet. Exactly seven years later, he won the Padma Bhushan too! Indeed its a remarkable date for the former Indian cricket captain.The Indian cricket sensation Mahendra Singh Dhoni was awarded the Padma Bhushan on April 2, 2018. This legendary sportsperson added another achievement of glory to his award list by making this feat.
+        </p>
+      </div>
+    </div>
+    <div>
+      <center><img src = "Mahendra Singh Dhoni.webp" alt = "image" class = "image"></center>
+    </div>
+    
+  </section>
+  <footer>
+    <div class="links-footer">
+      <a href = "https://en.wikipedia.org/wiki/MS_Dhoni">Read more about MS Dhoni</a>
+      <a href = "https://www.cricbuzz.com/profiles/265/ms-dhoni">See MS Dhoni Cricket Stats</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
+
+
+
+CSS:
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.indianexpress.com/2019/11/ms-dhoni-1200.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.45);
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.35);
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.35);
+  color: white;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-family: Arial;
+}
+
+span{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about{
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-family: Arial;
+}
+
+.contain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.paragraphs{
+  float: left;
+  text-align: left;
+  color: white;
+  font-family: Courier 'Courier New', Courier, monospace;
+  font-size:  22px;
+  margin: 0px 30px 10px 30px;
+}
+
+.image{
+  width: 400px;
+  height: 400px;
+  margin: 32px 65px 10px 0px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+footer{
+  height: 100px;
+}
+
+.links-footer{
+  margin: 0px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255,0,0,0.1);
+  border: 1px solid rgba(255,0,0.35);
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.35);
+}
+
+a{
+  color: white;
+  font-size: 22px;
+}
+
